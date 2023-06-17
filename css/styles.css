@@ -16,6 +16,7 @@ body {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   max-width: 100%;
@@ -35,7 +36,7 @@ body {
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #945098;
+  background: #ebf5fc;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -67,4 +68,36 @@ body {
   color: #777;
   z-index: 1;
   transition: 0.4s;
+}
+.container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #0309f4;
+  margin-top: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 400;
+  color: #fff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.container .card:hover .box {
+  transform: translateY(-50px);
+  transition: 0.6s;
+  box-shadow: 0 10px 30px rgba(30, 75, 199, 0.5);
+  background: linear-gradient(180deg, #b868b1, #ffffff);
+  background: linear-gradient(105deg, #b868a7, #d2d5c4);
+}
+.container .card:hover .box .content h2 {
+  color: rgba(0, 0, 0, 0.1);
+}
+.container .card:hover .box .content h3 {
+  color: #111;
+}
+.container .card:hover .box .content p {
+  color: #fff;
+}
+.container .card:hover .box .content a {
+  background: #28a6a6;
+  color: #111;
 }/*# sourceMappingURL=styles.css.map */
