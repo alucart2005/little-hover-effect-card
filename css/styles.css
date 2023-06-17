@@ -35,5 +35,15 @@ body {
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #ebf5fc;
+  background: #587d97;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .card .box .content {
+  padding: 20px;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
